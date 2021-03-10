@@ -1,0 +1,103 @@
+:root {
+  --point-color: orange;
+}
+* {
+  box-sizing: border-box;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+button {
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+.navbar {
+  font-size: 2rem;
+  padding: 0.5em;
+  background-color: rgb(255, 251, 231);
+  width: 100%;
+}
+.navbar-logo {
+  color: var(--point-color);
+  margin-right: 0.5em;
+}
+.navbar-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 0.5em;
+  background-color: var(--point-color);
+  color: #f0f0f0;
+  border-radius: 50%;
+}
+.add-form {
+  margin-left: 0.5rem;
+}
+.add-input {
+  font-size: 1rem;
+  margin-right: 0.2rem;
+}
+.add-button {
+  height: 100%;
+  font-size: 1rem;
+  background-color: navy;
+  border-radius: 3px;
+  color: whitesmoke;
+}
+.habit {
+  font-size: 2.5rem;
+  padding: 0.5em 0.5em 0 0.5em;
+  list-style: none;
+}
+.habit-count {
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  line-height: 2.5rem;
+  margin-left: 0.2em;
+  margin-right: 0.5em;
+  background-color: var(--point-color);
+  color: #f0f0f0;
+  border-radius: 50%;
+}
+.habit-button {
+  font-size: 2.5rem;
+  margin: 0 0.1rem;
+  background-color: transparent;
+}
+.habit-button:hover {
+  opacity: 0.8;
+}
+.habit-increase,
+.habit-decrease {
+  color: navy;
+}
+.habit-delete {
+  font-size: 2rem;
+  vertical-align: baseline;
+  color: gray;
+}
+.habits-reset {
+  border: 1px solid #036635;
+  font-size: 1rem;
+  padding: 0.2em 1em;
+  color: white;
+  background-color: #036635;
+  border-radius: 3px;
+}
+
+.habits-reset:hover {
+  border: 1px solid #036635;
+  font-size: 1rem;
+  padding: 0.2em 1em;
+  color: #036635;
+  background-color: white;
+}
